@@ -2,8 +2,8 @@
   
 # FDPlaceholder
  - FDPlaceholder 能快速地给UIView或UIScrollView添加占位视图(比如加载视图、空数据视图、加载出错视图等)。调用简单，可定制程度高。
-### 效果图
-![展示图片](FDPlaceholder.gif)
+### 展示图
+![展示图](https://github.com/Fogdog525/FDPlaceholder/blob/master/FDPlaceholderDemo/FDPlaceholder.gif)
 
 ### 如何使用
  - 拖入文件夹FDViewSupport,并导入头文件"FDViewSupport.h"。
