@@ -27,31 +27,31 @@
    ```
  - 如果用户不想使用默认的图片和文字，FDViewPlaceholder还额外提供了其他接口给用户DIY
  
-  ``` objc
+   ``` objc
   
-  //loading
-   - (void)fd_showLoadingViewWithWords:(nullable NSString *)words offsetY:(CGFloat)offstY;
-   - (void)fd_showLoadingViewWithAttribuatedWords:(nullable NSMutableAttributedString *)words offsetY:(CGFloat)offstY;
+   //loading
+    - (void)fd_showLoadingViewWithWords:(nullable NSString *)words offsetY:(CGFloat)offstY;
+    - (void)fd_showLoadingViewWithAttribuatedWords:(nullable NSMutableAttributedString *)words offsetY:(CGFloat)offstY;
   
-  //empty
-   - (void)fd_showEmptyViewWithWords:(nullable NSString *)words
+   //empty
+    - (void)fd_showEmptyViewWithWords:(nullable NSString *)words
                             image:(nullable NSString *)image
                           offsetY:(CGFloat)offsetY;
-   - (void)fd_showEmptyViewWithAttributedWords:(nullable NSMutableAttributedString *)words
+    - (void)fd_showEmptyViewWithAttributedWords:(nullable NSMutableAttributedString *)words
                                       image:(nullable NSString *)image
                                     offsetY:(CGFloat)offsetY;
-    //error                                
-   - (void)fd_showErrorViewWithWords:(nullable NSString *)words
+     //error                                
+    - (void)fd_showErrorViewWithWords:(nullable NSString *)words
                             image:(nullable NSString *)image
                      reloadButton:(nullable UIButton *)button
                           offsetY:(CGFloat)offsetY
                      reloadAction:(ReloadActionBlock)action;
-   - (void)fd_showErrorViewWithAttributedWords:(nullable NSMutableAttributedString *)words
+    - (void)fd_showErrorViewWithAttributedWords:(nullable NSMutableAttributedString *)words
                                       image:(nullable NSString *)image
                                reloadButton:(nullable UIButton *)button
                                     offsetY:(CGFloat)offsetY
                                reloadAction:(ReloadActionBlock)action;                              
-  ```
+   ```
  - 后续会不断更新其他功能。
   
  - 您在使用过程中出现错误或有好的建议，请给我issues提出来。
